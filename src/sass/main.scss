@@ -1,0 +1,80 @@
+.container {
+	margin: 26px;
+}
+
+#form-container {
+	border-radius: 5px;
+	border: 1px solid #c5c5c5;
+	width: 525px;
+	box-shadow: 0px 0px 5px #c5c5c5;
+}
+
+#form-container form input {
+	font-size: 12px;
+	display: inline;
+	width: 445px;
+	padding: 9px 0 8px 26px;
+	border: 1px solid #c5c5c5;
+	border-radius: 3px;
+	margin: 8px 0 8px 25px;
+}
+
+#form-container h1 {
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	line-height: 72px;
+	background-color: #428bca;
+	font-weight: 100;
+	border-bottom: solid #2d79ba;
+	margin: 0 0 24px 0;
+	font-size: 25px;
+	padding-left: 25px;
+}
+
+#form-container select {
+	font-size: 12px;
+	display: inline;
+	height: 31px;
+	width: 472px;
+	border: 1px solid #c5c5c5;
+	border-radius: 3px;
+	margin: 8px 0 8px 25px;
+	padding-left: 26px;
+	background-color: #fff;
+	background: transparent;
+	background: url(../images/dropdown.png) 100% / 6% no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#user-comment {
+	height: 57px;
+	width: 445px;
+	font-size: 12px;
+	padding: 9px 0 8px 26px;
+	border: 1px solid #c5c5c5;
+	border-radius: 3px;
+	margin: 8px 0 8px 25px;
+}
+
+#submit {
+	width: 100px;
+	margin-left: 20px;
+	margin: 20px;
+	padding: 10px;
+	font-size: 12px;
+	border-radius: 3px;
+	border: 0;
+	background-color: #428bca;
+	color: #fff;
+}
+
+#footer {
+	margin-top: 24px;
+	background-color: #c9def0;
+}
+
+.fa {
+	position: relative;
+}
