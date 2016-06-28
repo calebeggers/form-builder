@@ -21,30 +21,30 @@ $.ajax({
 });
 
 function inputText (object) {
-	$("#form-container form").append(`<i class="fa ${object.icon}" aria-hidden="true"></i> <input type="${object.type}" name="${object.label}" placeholder="${object.label}" id="${object.id}">`)
+	$("#form-container form").append(`<div class="input-container"><i class="fa ${object.icon}" aria-hidden="true"></i> <input type="${object.type}" name="${object.label}" placeholder="${object.label}" id="${object.id}"></div>`)
 };
 
 function inputSelect(object) {
-	$("#form-container form").append(`<select name="${object.type}">
+	$("#form-container form").append(`<div class="input-container"><select name="${object.type}">
               <option value="value1" selected>${object.label}...</option> 
               <option value="value2">${object.options[0].label}</option>
               <option value="value3">${object.options[1].label}</option>
               <option value="value4">${object.options[2].label}</option>
               <option value="value5">${object.options[3].label}</option>
               <option value="value6">${object.options[4].label}</option>
-            </select>`)
+            </select></div>`)
 };
 
 function inputTextarea(object) {
-	$("#form-container form").append(`<i class="fa ${object.icon}" aria-hidden="true"></i> <textarea id="${object.id}" placeholder="${object.label}"></textarea>`);
+	$("#form-container form").append(`<div class="input-container"><i class="fa ${object.icon}" aria-hidden="true"></i> <textarea id="${object.id}" placeholder="${object.label}"></textarea></div>`);
 };
 
 function inputEmail(object) {
-	$("#form-container form").append(`<i class="fa ${object.icon}" aria-hidden="true"></i> <input type="${object.type}" name="${object.label}" placeholder="${object.label}" id="${object.id}">`);
+	$("#form-container form").append(`<div class="input-container"><i class="fa ${object.icon}" aria-hidden="true"></i> <input type="${object.type}" name="${object.label}" placeholder="${object.label}" id="${object.id}"></div>`);
 };
 
 function inputTel(object) {
-	$("#form-container form").append(`<i class="fa ${object.icon}" aria-hidden="true"></i> <input type="${object.type}" name="${object.label}" placeholder="${object.label}" id="${object.id}">`);
+	$("#form-container form").append(`<div class="input-container"><i class="fa ${object.icon}" aria-hidden="true"></i> <input type="${object.type}" name="${object.label}" placeholder="${object.label}" id="${object.id}"></div>`);
 }
 
 

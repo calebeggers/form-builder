@@ -9,9 +9,14 @@
 	box-shadow: 0px 0px 5px #c5c5c5;
 }
 
+#form-container form {
+/*	position: relative;*/
+}
+
 #form-container form input {
-	font-size: 12px;
+/*	position: relative;*/
 	display: inline;
+	font-size: 12px;
 	width: 445px;
 	padding: 9px 0 8px 26px;
 	border: 1px solid #c5c5c5;
@@ -31,7 +36,8 @@
 	padding-left: 25px;
 }
 
-#form-container select {
+#form-container select {/*
+	position: relative;*/
 	font-size: 12px;
 	display: inline;
 	height: 31px;
@@ -75,6 +81,14 @@
 	background-color: #c9def0;
 }
 
-.fa {
+.input-container {
 	position: relative;
+}
+
+.fa {
+	position: absolute;
+	left: 32px;
+	top: 16px;
+	color: #a1a5a7;
+	font-size: 8px;
 }
